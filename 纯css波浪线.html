@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wave{
+
+            height:10px;
+
+            width:100px;
+
+            background-image:repeating-radial-gradient(transparent,transparent 5px,#333 6px,#333 15px);
+
+            background-image:-webkit-repeating-radial-gradient(transparent,transparent 5px,#333 6px,#333 15px);
+
+            background-size: 20px 21px;
+
+            background-repeat: repeat-x;
+
+        }
+
+        .selection::selection {
+
+            background: red;
+
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<div class="wave"></div>
+<div class=" selection">dfdfd d</div>
+</body>
+</html>
